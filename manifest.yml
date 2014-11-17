@@ -1,0 +1,19 @@
+---
+applications:
+- name: crud-app
+  memory: 256M
+  instances: 1
+  host: crud-app
+  domain: cfapps.io
+  path: target/universal/play-java-intro-1.0-SNAPSHOT.zip
+  services:
+    postgresql-database:
+      label: elephantsql
+      provider: 
+      version: 
+      plan: turtle
+    newrelic-monitoring:
+      label: newrelic
+      provider: 
+      version: 
+      plan: standard

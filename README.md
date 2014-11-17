@@ -1,1 +1,3 @@
-Sample CRUD app written in Play framework used an example to deploy in multiple PaaS providers
+# Getting started with Play (Java)
+
+This project demonstrate how to create a simple CRUD application with Play. A screencast to the project exist on [playframework.com](http://playframework.com)
